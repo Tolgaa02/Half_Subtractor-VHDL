@@ -19,3 +19,4 @@ begin
 end Behavioral;
 
 
+![Half_Subtractor](https://github.com/Tolgaa02/Half_Subtractor-VHDL/assets/162368039/89e06a57-dd10-4775-917e-7d878f4a69ce)
