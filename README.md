@@ -1,6 +1,21 @@
-# Half_Subtractor-VHDL
-VHDL half subtractor circuit coded in Vivado 2023
-Circuit has 2 single bit inputs (a and b)
-Also has 2 single bit outputs (c and d)
-c stands for carrier bit and d stands for difference bit
-Ty for reading this.
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity Half_Subtractor is
+    Port ( a : in STD_LOGIC;
+           b : in STD_LOGIC;
+           d : out STD_LOGIC;
+           c : out STD_LOGIC);
+end Half_Subtractor;
+
+architecture Behavioral of Half_Subtractor is
+
+begin
+
+    d <= a xor b;
+    c <= not (a) and b;
+
+
+end Behavioral;
+
+
